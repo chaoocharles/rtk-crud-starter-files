@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+body {
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.App {
+  max-width: 350px;
+  margin: 2rem auto;
+}
+
+form input {
+  min-width: 50%;
+  padding: 7px;
+  border: 1px solid rgb(143, 143, 143);
+  outline: none;
+  border-radius: 3px;
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+form input:focus {
+  border: 1px solid #09f;
+}
